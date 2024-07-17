@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD:assets/minecraft/models/item/stick.json
     "parent": "minecraft:item/generated",
     "textures": {
       "layer0": "minecraft:item/stick"
@@ -7,3 +8,13 @@
       {"predicate":{"custom_model_data":1}, "model": "custom/bob"}
     ]
   }
+=======
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/stick"
+  },
+  "overrides":[
+    {"predicate":{"custom_model_data":1}, "model": "custom/test"}
+  ]
+}
+>>>>>>> 70ae9d8ef8ccb1a6c86713e608fd05a25f22e629:assets/minecraft/models/stick.json
